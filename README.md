@@ -5,6 +5,7 @@ This repo is a home for my web scraping practice scripts. I may expand it later.
   - Simply scrapes quotes and prints them
 - quotes_scraper_2.py for [QuotesToScrape](https://quotes.toscrape.com)
   - Modified version of quotes_scraper.py that adds tags to output
+  - Added csv output with values wrapped in quotes
 - books_scraper.py for [BooksToScrape](https://books.toscrape.com)
   - Scrapes book info and prints to csv file
 - remote_ok_scraper.py for [RemoteOk](https://remoteok.com)

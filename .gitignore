@@ -4,5 +4,5 @@
 # IDE projects folder
 .idea/
 
-# books.csv file in scripts folder
-scripts/books.csv
+# All csv files in scripts folder
+scripts/*.csv
