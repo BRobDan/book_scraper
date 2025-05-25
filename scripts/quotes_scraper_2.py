@@ -49,5 +49,10 @@ class QuoteCrawler:
 
 
 if __name__ == "__main__":
+    # open quotes.csv, clear it, and write a header
+    with open('quotes.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL) # create new writer
+        writer.writerow(["Quote", "Author", "Tags"]) # write header
+
     crawler = QuoteCrawler() # create QuoteCrawler object
     crawler.get_quotes() # scrape the url
